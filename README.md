@@ -17,12 +17,12 @@ License: [MIT](https://opensource.org/licenses/MIT)
 
 Both of these files must exist in the root folder (adjacent to `package.json`) and all variables must be defined
 
-####`server.env`
+#### `server.env`
 ```
 PORT=3000
 ```
 
-####`app.env`
+#### `app.env`
 ```
 TEST_MSG=Hello World!
 ```
