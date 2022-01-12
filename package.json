@@ -3,20 +3,11 @@
   "version": "1.0.0",
   "description": "Express-React Template",
   "main": "server.js",
-  "babel": {
-    "presets": [
-      "@babel/preset-env",
-      "@babel/preset-react"
-    ],
-    "plugins": [
-      "@babel/plugin-transform-runtime"
-    ]
-  },
   "browserslist": "> 0.25%, not dead",
   "scripts": {
-    "start": "dotenv npm run build && node server.js",
-    "dev": "dotenv webpack serve --mode development --env development",
-    "build": "webpack --mode production"
+    "start": "npm run build && node server.js",
+    "dev": "webpack serve --env development",
+    "build": "webpack --env production"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +16,7 @@
     "node": "14.x"
   },
   "dependencies": {
+    "babel-plugin-dotenv-import": "^2.2.0",
     "dotenv-cli": "^4.1.0",
     "express": "^4.17.1",
     "path": "^0.12.7",
