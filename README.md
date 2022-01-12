@@ -2,6 +2,8 @@
 
 A simple template project for setting up a [React web application](https://reactjs.org/) using [Webpack](https://webpack.js.org/) and served by [ExpressJs](https://expressjs.com/)
 
+License: [MIT](https://opensource.org/licenses/MIT)
+
 ## Usage
 
 1. Clone repository
@@ -24,3 +26,4 @@ PORT=3000
 ```
 TEST_MSG=Hello World!
 ```
+
