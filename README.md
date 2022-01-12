@@ -1,4 +1,4 @@
-# Express React Template
+# Express React Webpack Template
 
 A simple template project for setting up a [React web application](https://reactjs.org/) using [Webpack](https://webpack.js.org/) and served by [ExpressJs](https://expressjs.com/)
 

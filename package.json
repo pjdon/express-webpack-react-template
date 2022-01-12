@@ -1,7 +1,7 @@
 {
-  "name": "express-react-template",
+  "name": "express-react-webpack-template",
   "version": "1.0.0",
-  "description": "Express-React Template",
+  "description": "Express-React-Webpack Template",
   "main": "server.js",
   "browserslist": "> 0.25%, not dead",
   "scripts": {
