@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "babel-plugin-dotenv-import": "^2.2.0",
     "dotenv-cli": "^4.1.0",
