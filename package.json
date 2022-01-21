@@ -3,7 +3,6 @@
   "version": "1.0.1",
   "description": "",
   "main": "server.js",
-  "browserslist": "> 0.25%, not dead",
   "scripts": {
     "start": "npm run build && node server.js",
     "dev": "webpack serve --env development",
@@ -12,9 +11,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "engines": {
-    "node": "14.x"
-  },
   "dependencies": {
     "babel-plugin-dotenv-import": "^2.2.0",
     "dotenv-cli": "^4.1.0",
